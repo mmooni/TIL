@@ -1,0 +1,143 @@
+/*! init.css @ 2017, yamoo9.net */
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  font-size: 1.4rem; /* 14px */
+  /*line-height: 1.5;   21px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+/*건너뛰기링크 숨김 컨텐츠*/
+.a11y-hidden, legend, label{
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  /* width: 1px; */
+  /* height: 1px; */
+  /* margin: -1px; */
+  border: 0;
+  /* padding: 0; */
+}
+
+.a11y-hidden.focusable:focus {
+  overflow: visible;
+  position: static;
+  clip: auto;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+caption.a11y-hidden {
+  position: static;
+}
+
+/*랑크스타일*/
+  a{
+    color: inherit; /*부모값을 상속받는 값*/
+    text-decoration: none;
+  }
+    .container{
+      padding-top: 42px;
+    }
+    .gap-1 {
+      margin-bottom: 21px;
+    }
+    .gap-2 {
+      margin-bottom: 42px;
+    }
+/*heading style*/
+.best-heading, .brand-heading,
+.brandbew-heading, .tip-heading,
+.bestreview-heading{
+  padding: 0;
+  margin-bottom: 21px;
+  text-indent: 10px;
+  color: inherit;
+  font-size: 1.8rem;
+  line-height: 21px;
+}
+    /*header*/
+     .header .box {
+      height: 63px;
+      /*background: #333;*/
+      color: inherit;
+      text-align: center;
+      line-height: 63px;
+    }
+    /*nav*/
+    .nav .box {
+      height: 21px;
+      /*background: #333;*/
+      color: inherit;
+      text-align: center;
+      line-height: 21px;
+    }
+    /*filter*/
+    /*.filter .box {
+      height: 42px;
+      background: #333;
+      color: #fff;
+      text-align: center;
+      line-height: 42px;
+    }*/
+    /*visual*/
+    .visual .box {
+      height: 483px;
+      /*background: #333;*/
+      color: #fff;
+      text-align: center;
+      line-height: 483px;
+      position: relative;
+    }
+    /*main-content*/
+    .best-seller .box,
+    .brand-new .box {
+      box-sizing: border-box;
+      height: 336px;
+      color: #444;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    .brand .box {
+      height: 189px;
+      background: #333;
+      color: #fff;
+      text-align: center;
+      line-height: 189px;
+    }
+    .tip .box{
+      height: 231px;
+
+    }
+    .best-review .box{
+      box-sizing: border-box;
+      height: 294px;
+      color: #444;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    /*foote*/
+      .footer-nav .box {
+      margin-bottom: 42px;
+      height: 42px;
+    /*  background: #555;
+      color: #ccc;*/
+    }
+     .footer .box {
+      height: 126px;
+      /*background: #555;*/
+      color: inherit;
+    }

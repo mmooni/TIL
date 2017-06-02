@@ -1,0 +1,315 @@
+@charset "utf-8";
+/*@import "fonts.css";*/
+
+/*header*/
+ .logo{
+    margin: 0;
+    padding: 0;
+  }
+  .logo a{
+    display: block;
+    /*background: yellow;*/
+    padding: 0;
+    margin: 0;
+    width: 172px;
+    height: 63px;
+  }
+
+  /*header form*/
+  .serch-form fieldset{
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  border: 0;
+  }
+
+.serch-form input[type=text] {
+  width: 380px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid #555656;
+  }
+.btn-serch{
+  border: none;
+  text-indent: -999em;
+  width: 14px;
+  height: 14px;
+  background-image: url(../../images/header/serch.png); 
+  background-color: inherit;
+  background-repeat: no-repeat;
+  position: relative;
+  top: 0;
+  right: 30px;
+  }
+
+/*global nav*/
+.global-nav{
+  text-align: right
+  }
+.global-login-off > a{
+  text-decoration: none;
+  display: inline-block;
+  color: #991717;
+  padding: 5px 10px;
+  line-height: 10px;
+  height: 23px;
+}
+.global-login-off> li > a:hover{
+  border: 1px solid #991717;
+}
+
+/*nav*/
+.navigation{
+  height: 21px;
+  line-height: 21px;
+}
+.navigation a{
+  display: inline-block;
+  /*background: #991717;*/
+  padding: 0 40px 0 0;
+}
+.navigation:hover{
+  background: #991717;
+  color: #fff;
+}
+/*필터nav*/
+.filter{
+  border-top: 2px solid #991717; 
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  height: 42px;
+  text-align: center;
+}
+.filter-nav{
+  background: #f0f0f0;
+  position: absolute;
+}
+.filter-nav > a{
+  display: block;
+  color: #991717;
+  /* background: yellow; */
+  height: 42px;
+  width: 100%;
+  padding-top: 10px;
+}
+.filter-nav > a::before{
+  display: inline-block;
+  content: "";
+  background: url(../../images/header/filter-icon.png) no-repeat; 
+  position: relative;
+  top:2px;
+  right: 2px;
+  width: 16px;
+  height: 14px;
+}
+.filter-content{
+  display: none;
+  box-sizing: border-box;
+  position: absolute;
+  top:40px;
+  width: 100%;
+  height: 232px;
+  background: #f0f0f0;
+  text-align: left;
+  padding-top: 21px;
+  z-index: 1;
+}
+.filter-content span{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.filter-content ul{
+  list-style: none;
+  margin: 0;
+  /*background: blue;*/
+  padding-top: 21px;
+  padding-left: 0;
+}
+.filter-age li:first-child,
+.filter-style li:first-child{
+  color: #555656;
+  background: none;
+  padding-left: 0;
+  padding-right: 20px;
+}
+.filter-age li, .filter-style li{
+  display: inline-block; 
+  margin-right: 2px;
+}
+.filter-age a, .filter-style a{
+  background: #aaa;
+  color: #fff;
+  display: inline-block;
+  padding: 0 23px;
+}
+.filter-age a:hover,
+.filter-style a:hover{
+  background: #991717;
+}
+.filter-btn{
+  text-align: center;
+  margin-top: 40px;
+}
+.btn-reset{ 
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #aaa;
+  padding: 7px 20px;
+}
+.btn-fin{ 
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #991717;
+  padding: 7px 20px;
+}
+/*main*/
+.deal-slider{
+  /*background: yellow;*/
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 21px;
+  height: 21px;
+}
+.deal-slider-indicator{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.deal-slider-indicator li{
+  display: inline-block;
+  margin-right: 15px;
+}
+.indicator-item button{
+  position: absolute;
+  bottom: 0;
+  border: 0;
+  background-color: hsla(0, 0%, 0%, 0);
+  outline: 0;
+  cursor: pointer;
+  text-indent: -9999px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  overflow: hidden;
+  background-image: url(../../images/icons/carousel-icon.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+button .indicator-item act{
+  background-image: url(../../images/icons/carousel-icon.png);
+  background-position: -30px 0;
+  border: 1px solid red;
+}
+/*베스트셀러, 신상품*/
+.list{
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
+  position: relative;
+}
+.list-tip{
+  list-style: none;
+  margin: 0;
+  padding: 10px 15px;
+  position: relative;
+}
+.name-tip{
+  /*background: yellow;*/
+  width:calc(100% - 20px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tag{
+  display: block;
+  padding-top: 10px;
+}
+.tag span{
+  display: block;
+  text-align: left;
+}
+.price{
+  margin-top: 21px;
+  color: #991717;
+}
+.btn-zzim{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.btn-zzim-tip{
+  position: absolute;
+  bottom: 55px;
+  right: 10px;
+}
+
+.tip{
+  position: relative;
+  /*background: yellow;*/
+}
+.tip-deal-slider{
+  position: absolute;
+  top : 0;
+  right : 0;
+}
+
+/*베스트리뷰*/
+.tx-point{
+  display: inline-block;
+  /*background: yellow;*/
+}
+.review_point{
+  display : inline-block;
+  width : 68px;
+  height : 11px;
+  overflow : hidden;
+  background : url(../../images/icons/review-point-off.png);
+  text-indent : -9999px;
+}
+.point {
+  display: inline-block;
+  height: 11px;
+  /*width: 68px;*/
+  background : url(../../images/icons/review-point-on.png) no-repeat;
+  float: left;
+}
+/*footer*/
+.guide{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  background: #555;
+  color: #ccc;
+}
+.guide li{
+  display: inline-block;
+  padding: 13px 10px;
+}
+.guide a{
+  display: block;
+  border-left: 1px solid #888;
+  line-height: 15px;
+  padding-left: 30px;
+}
+.guide li:first-child{
+  padding-left:0;
+}
+.adrees > em{
+  font-style: normal;
+}
+.footer-call p{
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+}
+.footer-call h2{
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-size: 3rem;
+  color: #991717;
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>shoppingmall &lt; yuyu.com</title>
+  <link rel="stylesheet" href="./css/modules/init.css">
+  <link rel="stylesheet" href="./css/modules/grid.css">
+  <link rel="stylesheet" href="./css/style/style.css">
+</head>
+<body class="show-grid">
+  <div class="container wrapper">
+    <header class="header">
+      <div class="row is-isolate gap-2">
+          <div class="box col is-3 o-1">
+            <h1 class="logo">
+              <a href="index.html">
+                <img src="images/header/logo.svg" alt="youyou.com">
+               </a>
+            </h1>
+          </div>
+          <div class="box col is-2 o-11">
+            <div class="global-login-off">
+              <a href="#" class="login">로그인</a>
+              <a href="#" class="join">회원가입</a>
+            </div>
+          </div>
+          <div class="box col is-6 o-4 serch-form">
+            <h2 class="a11y-hidden">검색</h2>
+            <form class="serch-form">
+              <fieldset>
+                <legend>검색폼</legend>
+                <label for="serch-keyword">검색어</label>
+                <input type="text" name="" value="" required placeholder="검색어를 입력하세요.">
+                <button type="submit" class="btn-serch">버튼</button>
+              </fieldset>
+            </form>
+          </div>
+      </div>
+      <nav class="nav row gap-1 navigation">
+          <div class="box col is-12">
+             <h2 class="a11y-hidden">네비게이션</h2>
+                <a href="#">MAIN</a>
+                <a href="#">BRAND</a>
+                <a href="#">SPECIAL</a>
+                <a href="#">OUTER</a>
+                <a href="#">TOPS</a>
+                <a href="#">BOTTOM</a>
+                <a href="#">DRESS</a>
+                <a href="#">SHOES</a>
+                <a href="#">BAG</a>
+                <a href="#">ACC</a>
+                <a href="#">SUMMER</a>
+                <a href="#">ETC</a>
+          </div>
+      </nav>
+    </header><!-- header end -->
+    <div class="filter row">
+        <div class="box col is-12 filter-nav">
+           <h2 class="a11y-hidden">필터창</h2>
+            <a href="#">필터를 입력해 주세요</a>
+           <div class="filter-content">
+              <div class="filter-age">
+                  <ul>
+                    <li><span>연령대</span></li>
+                    <li><a href="#">10대</a></li>
+                    <li><a href="#">20대</a></li>
+                    <li><a href="#">30대</a></li>
+                  </ul>
+              </div>
+              <div class="filter-style">
+                  <ul>
+                    <li><span>스타일</span></li>
+                    <li><a href="#">소녀룩</a></li>
+                    <li><a href="#">모던시크</a></li>
+                    <li><a href="#">심플베이지</a></li>
+                    <li><a href="#">로맨틱</a></li>
+                    <li><a href="#">오피스룩</a></li>
+                    <li><a href="#">캠퍼스룩</a></li>
+                    <li><a href="#">빈티지</a></li>
+                    <li><a href="#">트레이닝</a></li>
+                  </ul>
+            </div>
+            <div class="filter-btn">
+              <button type="submit" class="btn-reset">초기화</button>
+              <button type="submit" class="btn-fin">필터 선택 완료</button>
+            </div>
+        </div>
+        </div>
+    </div><!--filter end-->
+    <div class="visual row gap-1">
+      <div class="box col is-12 main-visual">
+        <h2 class="a11y-hidden">메인이벤트</h2>
+        <img src="images/banner/banner-01.jpg" alt="main-visual-01">
+            <div class="deal-slider">
+              <ul class="deal-slider-indicator">
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item act"><button>.</button></li>
+              </ul>
+             </div>
+      </div>
+    </div><!-- visual end -->
+    <div class="main-content">
+      <div class="best-seller">
+        <h2 class="best-heading">베스트셀러</h2>
+        <div class="prd-list row gap-2">
+          <div class="list-wrap box col is-3">
+            <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-seller/bs-seller-01.jpg" alt="puppy코튼니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">monibabie</span>
+                  <span class="name">엘렌니트원피스</span>                  
+                  <span class="price">55,000원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul>
+          </div>
+          <div class="box col is-3">
+             <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-seller/bs-seller-02.jpg" alt="버튼 체크 원피스">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">From Beginning</span>
+                  <span class="name">ohkoos vintage Knit</span>                  
+                  <span class="price">26,600원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul>
+          </div>
+          <div class="box col is-3">
+             <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-seller/bs-seller-03.jpg" alt="아미라벨맨투맨">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">Zemma World</span>
+                  <span class="name">Tied-골지니트</span>                  
+                  <span class="price">22,000원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul>
+          </div>
+          <div class="box col is-3">
+             <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-seller/bs-seller-04.jpg" alt="Night스키니팬츠">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">daily monday</span>
+                  <span class="name">Buckle Wrap mini skirt</span>                  
+                  <span class="price">27,000원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul></div>      
+        </div>
+      </div>
+      <div class="brand">
+        <h2 class="brand-heading">브랜드</h2>
+        <div class="row gap-2">
+          <div class="box col is-3">3</div>
+          <div class="box col is-3">3</div>
+          <div class="box col is-3">3</div>
+          <div class="box col is-3">3</div>      
+        </div>
+      </div>
+      <div class="brand-new">
+        <h2 class="brandnew-heading">신상품</h2>
+         <div class="prd-list row gap-2">
+          <div class="list-wrap box col is-3">
+            <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/new-items/new-product-01.jpg" alt="엘렌 니트 원피스">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">monibabie</span>
+                  <span class="name">엘렌니트원피스</span>                  
+                  <span class="price">55,000원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul>
+          </div>
+          <div class="box col is-3">
+             <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/new-items/new-product-02.jpg" alt="ohkoosvintageKnit">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">From Beginning</span>
+                  <span class="name">ohkoos vintage Knit</span>                  
+                  <span class="price">26,600원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul>
+          </div>
+          <div class="box col is-3">
+             <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/new-items/new-product-03.jpg" alt="Tied골지니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">Zemma World</span>
+                  <span class="name">Tied-골지니트</span>                  
+                  <span class="price">22,000원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul>
+          </div>
+          <div class="box col is-3">
+             <ul class="list">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/new-items/new-product-04.jpg" alt="버클미니스커트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">daily monday</span>
+                  <span class="name">Buckle Wrap mini skirt</span>                  
+                  <span class="price">27,000원</span>                  
+                </a>
+                <button class="btn-zzim">찜하기</button>
+              </li>
+            </ul></div>      
+        </div>
+      </div>
+      <div class="tip">
+        <h2 class="tip-heading">언니의 팁</h2>        
+        <div class="tip-container row gap-2">
+          <div class="box col is-4">
+            <a href="#">
+              <img src="images/tip/product-1.jpg" alt="기획전활용만점원피스">
+            </a>
+          </div>
+          <div class="box col is-4">
+             <a href="#">
+              <img src="images/tip/product-2.jpg" alt="가을엔체크무늬!">
+            </a>
+          </div>
+          <div class="box col is-4">
+             <a href="#">
+              <img src="images/tip/product-3.jpg" alt="데일리백">
+            </a>
+          </div>
+          <div class="tip-deal-slider">
+              <ul class="deal-slider-indicator">
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item"><button>.</button></li>
+                <li class="indicator-item act"><button>.</button></li>
+              </ul>
+             </div>    
+        </div>
+      </div>
+       <div class="best-review">
+        <h2 class="bestreview-heading">베스트리뷰</h2>                 
+       <div class="prd-list row gap-2">
+          <div class="list-wrap box col is-2">
+            <ul class="list-tip">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-review/bs-product-01.jpg" alt="puppy코튼니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">따뜻해줘 가디건</span>
+                  <span class="name-tip">배송은 쇼핑몰에서 <br>입고가 늦어져서 별점 별점 하나 드립니다</span>                  
+                  <span class="price">31,9000원</span>                  
+                </a>
+                <button class="btn-zzim-tip">찜하기</button>
+                <p class="tx-point">
+                  <span class="review_point">
+                    <span class="point">10점만점에9점</span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="list-wrap box col is-2">
+            <ul class="list-tip">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-review/bs-product-02.jpg" alt="puppy코튼니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">버클트임박시후드</span>
+                  <span class="name-tip">후기를 너무 늦게 <br>썼네요ㅠ 딱 제가</span>                  
+                  <span class="price">30,6000원</span>                  
+                </a>
+                <button class="btn-zzim-tip">찜하기</button>
+                <p class="tx-point">
+                  <span class="review_point">
+                    <span class="point">10점만점에9점</span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>  
+          <div class="list-wrap box col is-2">
+            <ul class="list-tip">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-review/bs-product-03.jpg" alt="puppy코튼니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">Chic-자켓</span>
+                  <span class="name-tip">어깨가 좀 있는 <br>편이어서 오버핏으</span>                  
+                  <span class="price">49,000원</span>                  
+                </a>
+                <button class="btn-zzim-tip">찜하기</button>
+                <p class="tx-point">
+                  <span class="review_point">
+                    <span class="point">10점만점에9점</span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>     
+          <div class="list-wrap box col is-2">
+            <ul class="list-tip">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-review/bs-product-04.jpg" alt="puppy코튼니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">마실로 루즈핏 니...</span>
+                  <span class="name-tip">베이지색상 가디건 <br>필요했었는데 마침</span>                  
+                  <span class="price">19,0000원</span>                  
+                </a>
+                <button class="btn-zzim-tip">찜하기</button>
+                <p class="tx-point">
+                  <span class="review_point">
+                    <span class="point">10점만점에9점</span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>  
+           <div class="list-wrap box col is-2">
+            <ul class="list-tip">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-review/bs-product-05.jpg" alt="puppy코튼니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">멜라니 트렌치 코드</span>
+                  <span class="name-tip">Lorem ipsum <br>dolor sit amet,</span>                  
+                  <span class="price">19,000원</span>                  
+                </a>
+                <button class="btn-zzim-tip">찜하기</button>
+                <p class="tx-point">
+                  <span class="review_point">
+                    <span class="point">10점만점에9점</span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>  
+           <div class="list-wrap box col is-2">
+            <ul class="list-tip">
+              <li>
+                <div class="pic">
+                  <a href="#">
+                    <img src="images/best-review/bs-product-06.jpg" alt="puppy코튼니트">
+                  </a>
+                </div>
+                <a href="#" class="tag">
+                  <span class="brand">Luci-브이넥니트</span>
+                  <span class="name-tip">노랑노랑하니 <br>봄분위기 나고 좋아</span>                  
+                  <span class="price">24,0000원</span>                  
+                </a>
+                <button class="btn-zzim-tip">찜하기</button>
+                <p class="tx-point">
+                  <span class="review_point">
+                    <span class="point">10점만점에9점</span>
+                  </span>
+                </p>
+              </li>
+            </ul>
+          </div>  
+          
+        </div>
+      </div>
+    </div><!-- main-contnet end -->
+    <div class="footer-nav row gap-2 ">
+      <div class="box col is-12">
+        <ul class="guide">
+          <li><a href="#">YOUYU소개</a></li>
+          <li><a href="#">통합배송</a></li>
+          <li><a href="#">고객센터</a></li>
+          <li><a href="#">이용약관,개인정보</a></li>
+        </ul>
+      </div>
+      <div class="footer col is-12">
+        <div class="row is-nesting">
+          <div class="box col is-7">
+            <address class="address">
+              <p>
+                <span><em>Company.</em>YOUYU</span>
+                <span><em>대표이사.</em>이정희</span>
+                <span><em>개인정보관리책임자.</em>이정희</span>
+                <span><em>사업자번호.</em>123-45-67890</span>
+              </p>
+              <p>
+                <span><em>통신판매업신고.</em>2016-성남분당-1234</span>
+                <span><em>주소.</em>경기 성남시 분당구 판교역로 221 102호</span>
+                <span><em>대표번호.</em>1234-5678</span>
+              </p>
+              <div class="copyright"><em>Copyright &copy;2016 YOUYU co,. Ltd.All rights reserved.</em></div> 
+            </address>
+            <div class="footer-atc">
+              <img src="images/footer/partner.png" alt="partner">
+            </div>
+          </div>
+          <div class="footer-call box col is-2 is-offset-3">
+              <p>고객센터</p>
+              <h2>1234-5678</h2>
+              <span>월~금 11AM ~ 6PM</span>
+              <span>LUNCH 12:30 ~ 1:30PM</span>
+          </div>
+        </div>
+      </div>
+    </div><!-- footer end -->
+  </div><!-- container end -->
+<script src="./js/toggleGrid.js"></script>
+</body>
+</html>
