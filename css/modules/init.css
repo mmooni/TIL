@@ -112,11 +112,11 @@ caption.a11y-hidden {
       border: 1px solid #ddd;
     }
     .brand .box {
-      height: 189px;
+      height: 147px;
       background: #333;
       color: #fff;
       text-align: center;
-      line-height: 189px;
+      /*line-height: 189px;*/
     }
     .tip .box{
       height: 231px;

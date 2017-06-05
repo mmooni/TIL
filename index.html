@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="./css/style/style.css">
 </head>
 <body class="show-grid">
-  <div class="container wrapper">
+  <div class="wrapper">
+  <div class="container">
     <header class="header">
       <div class="row is-isolate gap-2">
           <div class="box col is-3 o-1">
@@ -184,11 +185,49 @@
       </div>
       <div class="brand">
         <h2 class="brand-heading">브랜드</h2>
-        <div class="row gap-2">
-          <div class="box col is-3">3</div>
-          <div class="box col is-3">3</div>
-          <div class="box col is-3">3</div>
-          <div class="box col is-3">3</div>      
+        <div class="row gap-2 main-recomm-wrap">
+          <div class="box col is-3 slick-list">
+            <a href="#">
+              <span class="list-name">mixxmix</span>
+              <img src="images/brand/brand-01.jpg" alt="">
+            </a>
+            <div class="prd-name">
+              <span>01.mixxmix</span>
+              <button class="btn-zzim">찜하기</button>
+            </div>
+          </div>
+           <div class="box col is-3 slick-list">
+            <a href="#">
+              <span class="list-name">REINE</span>
+              <img src="images/brand/brand-02.jpg" alt="">
+            </a>
+            <div class="prd-name">
+              <span>02.REINE</span>
+              <button class="btn-zzim">찜하기</button>
+            </div>
+          </div>
+           <div class="box col is-3 slick-list">
+            <a href="#">
+              <span class="list-name">BANHALA</span>
+              <img src="images/brand/brand-03.jpg" alt="">
+            </a>
+            <div class="prd-name">
+              <span>03.BANHALA</span>
+              <button class="btn-zzim">찜하기</button>
+            </div>
+          </div>
+           <div class="box col is-3 slick-list">
+            <a href="#">
+              <span class="list-name">CHERRYKOKO</span>
+              <img src="images/brand/brand-04.jpg" alt="">
+            </a>
+            <div class="prd-name">
+              <span>04.CHERRYKOKO</span>
+              <button class="btn-zzim">찜하기</button>
+            </div>
+          </div>   
+          <button class="btn-prev">prev</button>
+          <button class="btn-next">next</button>          
         </div>
       </div>
       <div class="brand-new">
@@ -431,8 +470,7 @@
                 </p>
               </li>
             </ul>
-          </div>  
-          
+          </div>        
         </div>
       </div>
     </div><!-- main-contnet end -->
@@ -476,6 +514,7 @@
       </div>
     </div><!-- footer end -->
   </div><!-- container end -->
+  </div>
 <script src="./js/toggleGrid.js"></script>
 </body>
 </html>
